@@ -1,0 +1,42 @@
+{
+  "patient_id": 0,
+  "profile": {
+    "age": 58,
+    "bmi": 34.2,
+    "sleep_quality": 3,
+    "stress_level": 7,
+    "physical_activity": 74,
+    "risks": {
+      "depression": "Medium",
+      "diabetes": "Medium",
+      "hypertension": "Medium"
+    }
+  },
+  "ml_analysis": {
+    "depression": 0.7,
+    "diabetes": 0.84,
+    "hypertension": 0.83
+  },
+  "markov_predictions": {
+    "depression": {
+      "current_state": "Medium",
+      "persistence_prob": 0.63,
+      "prediction_7days": "Medium"
+    },
+    "diabetes": {
+      "current_state": "Medium",
+      "persistence_prob": 0.59,
+      "prediction_7days": "Medium"
+    },
+    "hypertension": {
+      "current_state": "Medium",
+      "persistence_prob": 0.62,
+      "prediction_7days": "Medium"
+    }
+  },
+  "csp_recommendations": [
+    "diet",
+    "mindfulness"
+  ],
+  "high_priority_diseases": []
+}

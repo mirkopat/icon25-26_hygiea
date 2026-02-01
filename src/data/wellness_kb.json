@@ -1,0 +1,64 @@
+{
+  "diseases": [
+    "depression",
+    "diabetes",
+    "hypertension"
+  ],
+  "risk_factors": {
+    "depression": [
+      "stress_level",
+      "sleep_quality",
+      "family_history"
+    ],
+    "diabetes": [
+      "bmi",
+      "sugar_intake",
+      "physical_activity"
+    ],
+    "hypertension": [
+      "salt_intake",
+      "stress_level",
+      "age"
+    ]
+  },
+  "interventions": {
+    "exercise": {
+      "name": "Esercizio Fisico",
+      "cost": 2,
+      "targets": [
+        "diabetes",
+        "hypertension",
+        "depression"
+      ],
+      "effects": [
+        "reduce_bmi",
+        "reduce_stress",
+        "improve_sleep"
+      ]
+    },
+    "diet": {
+      "name": "Dieta Controllata",
+      "cost": 1,
+      "targets": [
+        "diabetes",
+        "hypertension"
+      ],
+      "effects": [
+        "reduce_sugar",
+        "reduce_salt"
+      ]
+    },
+    "mindfulness": {
+      "name": "Mindfulness",
+      "cost": 1,
+      "targets": [
+        "depression",
+        "hypertension"
+      ],
+      "effects": [
+        "reduce_stress",
+        "improve_sleep"
+      ]
+    }
+  }
+}

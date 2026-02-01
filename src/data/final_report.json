@@ -1,0 +1,25 @@
+{
+  "project": "Hygiea - Sistema di Prevenzione",
+  "author": "Studente",
+  "date": "2026-02-01",
+  "summary": "Sistema basato su conoscenza per prevenzione 3 patologie croniche",
+  "dataset": {
+    "observations": 420,
+    "patients": 60,
+    "days": 7,
+    "diseases": 3,
+    "features": 10
+  },
+  "classification": "Errore caricamento: No columns to parse from file",
+  "csp_recommendations": "Non disponibile",
+  "knowledge_base": {
+    "diseases": 3,
+    "interventions": 3,
+    "has_prolog": true
+  },
+  "markov_analysis": {
+    "diseases_analyzed": 3,
+    "stability_average": 0.44,
+    "dominant_state": "Medium"
+  }
+}

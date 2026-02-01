@@ -1,0 +1,13 @@
+{
+  "patient_risks": {
+    "depression": "High",
+    "diabetes": "High",
+    "hypertension": "Medium"
+  },
+  "recommended": [
+    "diet",
+    "mindfulness"
+  ],
+  "cost": 2,
+  "score": 1.8
+}
